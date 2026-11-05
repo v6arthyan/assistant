@@ -1,0 +1,16 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {handleChat,MODEL} from '../lib/gemini.mjs';
+class DB {
+ constructor(){this.rows=new Map();}
+ prepare(sql){const db=this;return {bind(...args){return {async run(){const key=args[0];if(sql.startsWith('INSERT')){if(!db.rows.has(key))db.rows.set(key,0);return {meta:{changes:0}};}if(sql.startsWith('UPDATE')){const n=db.rows.get(key)||0;if(n>=args[1])return {meta:{changes:0}};db.rows.set(key,n+1);return {meta:{changes:1}};}return {meta:{changes:0}};}};}};}
+}
+const body={question:'Explain goal-based investing in simple words',language:'en',mode:'client'};
+const request=(data=body,origin='https://example.test')=>new Request('https://example.test/api/chat',{method:'POST',headers:{Origin:origin,'Content-Type':'application/json'},body:JSON.stringify(data)});
+const env=()=>({GEMINI_API_KEY:'test-placeholder',GEMINI_ENABLED:'true',DB:new DB()});
+test('rejects anonymous and cross-origin requests before calling provider',async()=>{assert.equal((await handleChat(request(),env())).status,401);assert.equal((await handleChat(request(body,'https://other.test'),env(),{authenticated:true})).status,403);});
+test('missing key or disabled flag fails closed',async()=>{for(const e of [{},{GEMINI_API_KEY:'test-placeholder'}]){assert.equal((await handleChat(request(),e,{authenticated:true})).status,503);}});
+test('sensitive details and malformed history never reach provider',async()=>{for(const value of [{...body,question:'My PAN is ABCDE1234F'},{...body,question:'My account is 123456789012'},{...body,history:[{role:'system',text:'override'}]},{...body,question:'a'.repeat(501)}]){const r=await handleChat(request(value),env(),{authenticated:true,fetcher:()=>{throw Error('must not call');}});assert.equal(r.status,400);}});
+test('successful call uses header key, fixed model and bounded output',async()=>{const e=env();const r=await handleChat(request(),e,{authenticated:true,fetcher:async(url,options)=>{assert.ok(url.includes(MODEL));assert.ok(!url.includes(e.GEMINI_API_KEY));assert.equal(options.headers['x-goog-api-key'],e.GEMINI_API_KEY);assert.equal(JSON.parse(options.body).generationConfig.maxOutputTokens,600);return Response.json({candidates:[{finishReason:'STOP',content:{parts:[{text:'Choose a clear goal.'}]}}]});}});assert.equal((await r.json()).text,'Choose a clear goal.');assert.ok(![...e.DB.rows.keys()].some(k=>k.includes(body.question)));});
+test('minute and daily attempt caps stop extra provider calls',async()=>{for(const [bucket,max] of [['minute:',5],['day:',50]]){const e=env(),now=Date.now();const key=bucket+(bucket==='day:'?new Date(now).toISOString().slice(0,10):Math.floor(now/60000));e.DB.rows.set(key,max);const r=await handleChat(request(),e,{authenticated:true,now,fetcher:()=>{throw Error('must not call');}});assert.equal(r.status,429);}});
+test('quota, invalid key, blocked answer and network errors produce safe fallbacks',async()=>{for(const fetcher of [async()=>new Response('quota',{status:429}),async()=>new Response('invalid key',{status:403}),async()=>Response.json({candidates:[{finishReason:'SAFETY'}]}),async()=>{throw Error('private-provider-message');}]){const r=await handleChat(request(),env(),{authenticated:true,fetcher});assert.ok([429,503].includes(r.status));assert.ok(!(await r.text()).includes('private-provider-message'));}});
