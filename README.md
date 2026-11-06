@@ -31,7 +31,7 @@ The model is fixed to `gemini-3.1-flash-lite`. Availability and quotas are contr
 - AI mode sends the question and recent AI exchanges to Google. Google free-tier content may be used to improve its products. Never share client documents, PAN, Aadhaar, banking information, OTPs, credentials or other private details.
 - Common numeric identifiers and PAN-like patterns are blocked, but this is a limited heuristic, not comprehensive redaction or DLP.
 - D1 stores only aggregate usage bucket names and counts. Questions and answers are held only in browser memory by this app. Provider/platform processing is separate.
-- Server endpoint requires ChatGPT visitor identity and a same-origin JSON request. Preserve the existing private audience. Team mode is not a separate staff authorisation boundary.
+- Server endpoint requires ChatGPT visitor identity and a same-origin JSON request. Preserve the existing audience. Team mode is not a separate staff authorisation boundary.
 - AI drafts may be wrong; human review is required. No live market data, portal connections, account access, personalised financial advice or transaction execution.
 
 ## Develop and deploy
@@ -58,3 +58,12 @@ Gemini implementation and pricing references:
 - https://ai.google.dev/api/generate-content
 - https://ai.google.dev/gemini-api/docs/pricing
 - https://ai.google.dev/gemini-api/docs/generate-content/api-key
+
+## Enhanced knowledge — 6 November 2026
+
+- 35 curated bilingual entries across investor basics, servicing, platform support, V6 details and team workflows. Knowledge is in `public/knowledge.mjs`, mirrored at repository root for static hosting.
+- Local ranked retrieval understands whole words, English/Hindi/Hinglish aliases and limited spelling variations. Unsupported questions receive an explicit fallback. Team-only entries are omitted from the investor desk's retrieval; this is a UI/content scope, not a confidentiality boundary, because approved knowledge ships as a public asset.
+- Searchable cards show topic, source type and review date. Official-source summaries, owner-supplied information, application capabilities and general workflow suggestions have distinct labels. Review dates are not promises of live accuracy; current rules, fees, scheme terms and portal steps must still be verified at source.
+- Gemini receives up to three relevant excerpts, bounded to 4,500 characters, with provenance. Its responses return server-selected source references. This supplies context, not model training, live browsing or a guarantee of accuracy. No private employee manuals or client documents have been imported.
+- Prepared retrieval consumes no model tokens. Expanded AI context uses the provider's input allowance only when Gemini is configured. Existing activation flags, usage caps, authentication and sensitive-pattern checks remain in place.
+- Fourteen automated tests pass, covering retrieval quality, multilingual matching, unknown queries, mode scoping, advice boundaries, source metadata and the existing backend protections.
