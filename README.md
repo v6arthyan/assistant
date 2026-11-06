@@ -85,3 +85,14 @@ A visible Start portfolio review button opens a five-step educational conversati
 Definitions can interrupt a review without advancing its step. Short invalid answers prompt clarification rather than inventing a preference. A Stop review command clears the review state. Guided conversation is separate from Gemini’s optional generation; it works without a key or model-token usage.
 
 88 automated tests pass across social replies, complete English/Hindi portfolio flows, context retention, cancellation and the existing glossary/backend checks. These are bounded conversational intents, not unrestricted natural-language understanding.
+
+
+## Portfolio analysis lab
+
+Independent browser-local analytics, not a J.P. Morgan product or equivalent research platform. New pure functions in public/analytics.mjs calculate: weighted asset allocation, largest/top-three positions, position HHI/effective position count, fully covered weighted expense proxy, user-defined weighted shocks; monthly total returns, geometric annualisation, sample volatility, month-end drawdown, tracking error/difference, Sharpe, information ratio, beta and correlation; same-date constituent overlap and look-through exposure with explicit coverage.
+
+No live scheme/security feed, automatic FOF expansion, covariance/risk contribution by holding, optimised allocation, VaR/CVaR, XIRR, factor/Brinson attribution or suitability judgement is provided. Knowledge articles distinguish these concepts from implemented calculations. Missing values are not silently converted to zero. Weights and fully supplied constituent maps must sum to 100%; monthly returns must be aligned, consecutive and at least 12 months. Period/currency/fees and benchmark suitability remain user verification requirements. A minimum sample length does not guarantee statistical reliability.
+
+Use anonymous labels in the lab; inputs are not sent to the backend, stored, or transmitted to Gemini. Demo output is labelled illustrative. Text report download includes metrics, assumptions, methodology notes and the exact anonymous inputs for reproducibility. Editing inputs invalidates the report. The report is a discussion aid, not a recommendation.
+
+New tests use hand-calculated portfolio concentration/costs/shocks, an identical benchmark, a known drawdown, constant returns, invalid histories, constituent overlap and partial coverage. Screenshot phrase HOW U CAN now routes to the help menu.

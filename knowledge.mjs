@@ -1970,6 +1970,182 @@ export const ENTRIES = [
     "category": "Finance glossary",
     "kind": "official",
     "reviewed": "2026-11-06"
+  },
+  {
+    "id": "analysisworkflow",
+    "label": "Portfolio analysis: required inputs",
+    "hiLabel": "पोर्टफोलियो विश्लेषण: आवश्यक डेटा",
+    "keys": [
+      "portfolio analysis framework",
+      "institutional analysis",
+      "analysis workflow"
+    ],
+    "en": "Begin with a dated position snapshot, benchmark definition, comparable return history and documented goals. Validate inputs before interpreting metrics. The analysis lab calculates only the measures supported by supplied data.",
+    "hi": "तारीख सहित पोज़िशन, सही बेंचमार्क, तुलनीय रिटर्न इतिहास और लक्ष्य से शुरुआत करें। मेट्रिक्स से पहले डेटा जाँचें। लैब केवल दिए डेटा से संभव माप निकालती है।",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/portfolio-performance-evaluation",
+    "sourceLabel": "Method reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Portfolio analysis",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "concentration",
+    "label": "Position concentration and HHI",
+    "hiLabel": "पोज़िशन कंसन्ट्रेशन और HHI",
+    "keys": [
+      "hhi",
+      "effective holdings",
+      "concentration",
+      "top holdings"
+    ],
+    "en": "Position HHI is the sum of squared portfolio weights; its reciprocal is an effective position count. This describes outer positions, not underlying issuer diversification. The lab also shows largest and top-three position weights.",
+    "hi": "पोज़िशन HHI वज़नों के वर्गों का योग है; उसका व्युत्क्रम प्रभावी पोज़िशन संख्या है। यह बाहरी पोज़िशन बताता है, अंतर्निहित जारीकर्ता विविधता नहीं। लैब सबसे बड़ा और शीर्ष तीन वज़न भी दिखाती है।",
+    "source": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+    "sourceLabel": "Method reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Portfolio analysis",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "overlapanalysis",
+    "label": "Holdings overlap and look-through coverage",
+    "hiLabel": "होल्डिंग ओवरलैप और कवरेज",
+    "keys": [
+      "fund overlap",
+      "look through",
+      "lookthrough",
+      "holdings overlap"
+    ],
+    "en": "Compare identical security identifiers in same-date fund holdings. Pair overlap sums minimum security weights. Missing constituent coverage prevents a complete look-through conclusion. The lab reports available coverage explicitly.",
+    "hi": "एक ही तारीख की होल्डिंग में समान प्रतिभूति पहचान मिलाएँ। जोड़ी का ओवरलैप न्यूनतम प्रतिभूति वज़नों का योग है। डेटा कम होने पर पूरा निष्कर्ष नहीं निकलता; लैब कवरेज बताती है।",
+    "source": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+    "sourceLabel": "Method reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Portfolio analysis",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "scenariotest",
+    "label": "Scenario tests, VaR and expected shortfall",
+    "hiLabel": "परिदृश्य परीक्षण, VaR और अपेक्षित कमी",
+    "keys": [
+      "stress test",
+      "scenario analysis",
+      "var",
+      "cvar",
+      "expected shortfall"
+    ],
+    "en": "A scenario applies assumed shocks to exposures. It has no probability unless a probability model is supplied. VaR is a model-dependent loss threshold, not maximum loss. The lab implements weighted hypothetical shocks, not VaR or expected shortfall.",
+    "hi": "परिदृश्य परीक्षण एक्सपोज़र पर माने हुए झटके लगाता है। बिना मॉडल इसकी संभावना नहीं मिलती। VaR अधिकतम नुकसान नहीं है। लैब भारित काल्पनिक झटके निकालती है, VaR या expected shortfall नहीं।",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/measuring-managing-market-risk",
+    "sourceLabel": "Method reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Portfolio analysis",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "performanceattribution",
+    "label": "Performance measurement versus attribution",
+    "hiLabel": "प्रदर्शन मापन और एट्रिब्यूशन",
+    "keys": [
+      "performance attribution",
+      "brinson",
+      "attribution",
+      "allocation effect",
+      "selection effect"
+    ],
+    "en": "Measurement describes realised results; attribution explains their sources. Valid attribution needs appropriate benchmark/segment weights and returns. The lab calculates supplied-series returns and risk measures; it does not provide Brinson or factor attribution.",
+    "hi": "मापन वास्तविक परिणाम बताता है; एट्रिब्यूशन उसके स्रोत समझाता है। इसके लिए सही बेंचमार्क, खंड वज़न और रिटर्न चाहिए। लैब रिटर्न और रिस्क माप निकालती है, Brinson या फैक्टर एट्रिब्यूशन नहीं।",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/portfolio-performance-evaluation",
+    "sourceLabel": "Method reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Portfolio analysis",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "informationratio",
+    "label": "Information ratio and active risk",
+    "hiLabel": "इन्फॉर्मेशन रेशियो और एक्टिव रिस्क",
+    "keys": [
+      "information ratio",
+      "active risk",
+      "tracking risk"
+    ],
+    "en": "Information ratio relates benchmark-relative excess return to tracking error. It depends on benchmark choice and frequency. The lab uses annualised arithmetic monthly excess return divided by annualised sample tracking error. Zero tracking error makes this ratio undefined.",
+    "hi": "इन्फॉर्मेशन रेशियो अतिरिक्त रिटर्न को ट्रैकिंग एरर से जोड़ता है। लैब वार्षिकीकृत मासिक अतिरिक्त रिटर्न और सैंपल ट्रैकिंग एरर लेती है। शून्य ट्रैकिंग एरर पर अनुपात अपरिभाषित है।",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-active-portfolio-management",
+    "sourceLabel": "Method reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Portfolio analysis",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "correlation",
+    "label": "Correlation and portfolio volatility",
+    "hiLabel": "सहसंबंध और पोर्टफोलियो वोलैटिलिटी",
+    "keys": [
+      "correlation",
+      "covariance",
+      "risk contribution",
+      "risk budget"
+    ],
+    "en": "Correlation measures co-movement, not causation; it can change. Position weights alone cannot produce portfolio volatility or risk contributions. The lab estimates correlation from the supplied portfolio and benchmark monthly return series.",
+    "hi": "सहसंबंध साथ चलने का माप है, कारण का नहीं; यह बदल सकता है। केवल वज़न से पोर्टफोलियो वोलैटिलिटी या रिस्क योगदान नहीं निकलता। लैब दिए मासिक पोर्टफोलियो और बेंचमार्क रिटर्न से सहसंबंध निकालती है।",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-active-portfolio-management",
+    "sourceLabel": "Method reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Portfolio analysis",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "analysislimits",
+    "label": "Analysis capability and data limits",
+    "hiLabel": "विश्लेषण क्षमता और डेटा सीमाएँ",
+    "keys": [
+      "jpmorgan",
+      "jp morgan",
+      "analysis capabilities",
+      "proprietary model"
+    ],
+    "en": "This tool is independent of J.P. Morgan. It has no proprietary bank model, licensed investment universe or live scheme feed. Standard calculations can support a discussion; they do not reproduce an institution’s research, execution or investment judgement.",
+    "hi": "यह टूल J.P. Morgan से स्वतंत्र है। इसमें बैंक का निजी मॉडल, लाइसेंस प्राप्त निवेश डेटाबेस या लाइव स्कीम फीड नहीं है। सामान्य गणनाएँ चर्चा में सहायता करती हैं; संस्थागत रिसर्च या निर्णय का विकल्प नहीं।",
+    "source": "https://am.jpmorgan.com/us/en/asset-management/adv/tools/portfolio-tools/portfolio-analysis/",
+    "sourceLabel": "Method reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Portfolio analysis",
+    "kind": "official",
+    "reviewed": "2026-11-06"
   }
 ];
 
