@@ -61,9 +61,16 @@ Gemini implementation and pricing references:
 
 ## Enhanced knowledge — 6 November 2026
 
-- 35 curated bilingual entries across investor basics, servicing, platform support, V6 details and team workflows. Knowledge is in `public/knowledge.mjs`, mirrored at repository root for static hosting.
+- 86 curated bilingual entries across investor basics, servicing, platform support, V6 details and team workflows. Knowledge is in `public/knowledge.mjs`, mirrored at repository root for static hosting.
 - Local ranked retrieval understands whole words, English/Hindi/Hinglish aliases and limited spelling variations. Unsupported questions receive an explicit fallback. Team-only entries are omitted from the investor desk's retrieval; this is a UI/content scope, not a confidentiality boundary, because approved knowledge ships as a public asset.
 - Searchable cards show topic, source type and review date. Official-source summaries, owner-supplied information, application capabilities and general workflow suggestions have distinct labels. Review dates are not promises of live accuracy; current rules, fees, scheme terms and portal steps must still be verified at source.
 - Gemini receives up to three relevant excerpts, bounded to 4,500 characters, with provenance. Its responses return server-selected source references. This supplies context, not model training, live browsing or a guarantee of accuracy. No private employee manuals or client documents have been imported.
 - Prepared retrieval consumes no model tokens. Expanded AI context uses the provider's input allowance only when Gemini is configured. Existing activation flags, usage caps, authentication and sensitive-pattern checks remain in place.
-- Fourteen automated tests pass, covering retrieval quality, multilingual matching, unknown queries, mode scoping, advice boundaries, source metadata and the existing backend protections.
+- Sixty-eight automated tests pass, covering retrieval quality, multilingual matching, unknown queries, mode scoping, advice boundaries, source metadata and the existing backend protections.
+
+
+## FOF failure correction — 6 November 2026
+
+The earlier 35-entry release omitted Fund of Funds and could not answer the basic question `WHAT IS FOF`. The catalogue now includes 51 additional finance definitions (86 total) including FOF, ETF, NFO, AUM, AMC, YTM, alpha, beta, debt/hybrid funds, bonds, liquidity and inflation. Definitions have bilingual text and official references.
+
+Regression tests cover the exact reported question, F.O.F. punctuation, Hindi/Hinglish variants, 50 other basic definition questions, false acronym matches, and reachability of every new glossary title. All 68 tests pass. This remains a finite, locally searched glossary in Prepared mode; it is not open-ended AI or a claim to cover every finance term. The UI and unknown-answer message state that limit.

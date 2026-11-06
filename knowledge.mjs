@@ -850,11 +850,1131 @@ export const ENTRIES = [
     "category": "V6 & communication",
     "kind": "application",
     "reviewed": "2026-11-06"
+  },
+  {
+    "id": "fof",
+    "label": "FOF — Fund of Funds",
+    "hiLabel": "FOF — फंड ऑफ फंड्स",
+    "keys": [
+      "fof",
+      "f o f",
+      "fund of funds",
+      "fund of fund",
+      "funds of funds",
+      "फंड ऑफ फंड्स",
+      "एफओएफ",
+      "एफ ओ एफ"
+    ],
+    "en": "FOF stands for Fund of Funds. It is a mutual fund that invests in units of other mutual fund schemes rather than directly building a portfolio of individual shares or bonds.\n\nExample: a gold FOF may invest in a gold ETF.\n\nIts risk depends on the underlying funds. Check both the FOF’s expenses and the expenses of its underlying investments; returns are not guaranteed.",
+    "hi": "FOF का पूरा नाम Fund of Funds है। यह ऐसा म्यूचुअल फंड है जो सीधे अलग-अलग शेयर या बॉन्ड चुनने के बजाय दूसरे म्यूचुअल फंड की यूनिट में निवेश करता है।\n\nउदाहरण: गोल्ड FOF किसी गोल्ड ETF में निवेश कर सकता है।\n\nजोखिम अंतर्निहित फंड पर निर्भर है। FOF और उसके अंतर्निहित निवेश, दोनों स्तर के खर्च देखें। रिटर्न की गारंटी नहीं है।",
+    "source": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=CategorizationOfMutualFundSchemes",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "etf",
+    "label": "ETF — Exchange-Traded Fund",
+    "hiLabel": "ETF — एक्सचेंज ट्रेडेड फंड",
+    "keys": [
+      "etf",
+      "e t f",
+      "exchange traded fund",
+      "exchange traded funds",
+      "ईटीएफ",
+      "ई टी एफ"
+    ],
+    "en": "An ETF is an Exchange-Traded Fund. Its units trade on a stock exchange. Market price can differ from NAV; costs, liquidity and underlying risks matter.",
+    "hi": "ETF यानी Exchange-Traded Fund की यूनिट स्टॉक एक्सचेंज पर खरीदी-बेची जाती हैं। बाज़ार मूल्य NAV से अलग हो सकता है। लागत, लिक्विडिटी और अंतर्निहित जोखिम समझें।",
+    "source": "https://investor.sebi.gov.in/investment-assetclasses.html",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "indexfund",
+    "label": "Index fund",
+    "hiLabel": "इंडेक्स फंड",
+    "keys": [
+      "index fund",
+      "index funds",
+      "इंडेक्स फंड"
+    ],
+    "en": "An index fund seeks to track a specified index instead of selecting securities to beat it. Expenses and tracking differences affect its actual returns.",
+    "hi": "इंडेक्स फंड किसी निर्धारित इंडेक्स को ट्रैक करने का प्रयास करता है। खर्च और ट्रैकिंग अंतर के कारण उसके वास्तविक रिटर्न इंडेक्स से अलग हो सकते हैं।",
+    "source": "https://www.nseindia.com/static/products-services/indices-tracking-error",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "nfo",
+    "label": "NFO — New Fund Offer",
+    "hiLabel": "NFO — न्यू फंड ऑफर",
+    "keys": [
+      "nfo",
+      "new fund offer",
+      "new fund offering",
+      "एनएफओ",
+      "एन एफ ओ"
+    ],
+    "en": "NFO means New Fund Offer: the initial subscription offer for a new mutual fund scheme. A low unit offer price does not make it a bargain.",
+    "hi": "NFO यानी New Fund Offer, नई म्यूचुअल फंड स्कीम की शुरुआती सदस्यता पेशकश है। कम शुरुआती यूनिट मूल्य का मतलब सस्ता या बेहतर निवेश नहीं है।",
+    "source": "https://investor.sebi.gov.in/new_fund_offer.html",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "aum",
+    "label": "AUM — Assets Under Management",
+    "hiLabel": "AUM — एसेट्स अंडर मैनेजमेंट",
+    "keys": [
+      "aum",
+      "assets under management",
+      "asset under management",
+      "एयूएम",
+      "ए यू एम"
+    ],
+    "en": "AUM means Assets Under Management: the market value of assets managed by a fund or investment manager. A larger AUM alone does not establish better performance.",
+    "hi": "AUM यानी Assets Under Management, फंड या निवेश प्रबंधक द्वारा प्रबंधित संपत्ति का बाज़ार मूल्य है। बड़ा AUM अपने आप बेहतर प्रदर्शन नहीं दर्शाता।",
+    "source": "https://www.canararobeco.com/smartomorrows/jargons-simplified/",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "amc",
+    "label": "AMC — Asset Management Company",
+    "hiLabel": "AMC — एसेट मैनेजमेंट कंपनी",
+    "keys": [
+      "amc",
+      "asset management company",
+      "fund house",
+      "एएमसी"
+    ],
+    "en": "An AMC is an Asset Management Company: the organisation that manages mutual fund schemes and their investment portfolios under the applicable framework.",
+    "hi": "AMC यानी Asset Management Company, वह संस्था है जो लागू ढाँचे के अंतर्गत म्यूचुअल फंड स्कीम और उनके निवेश पोर्टफोलियो का प्रबंधन करती है।",
+    "source": "https://www.canararobeco.com/smartomorrows/jargons-simplified/",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "benchmark",
+    "label": "Benchmark and TRI",
+    "hiLabel": "बेंचमार्क और TRI",
+    "keys": [
+      "benchmark",
+      "tri",
+      "total return index",
+      "बेंचमार्क"
+    ],
+    "en": "A benchmark is a reference used to compare performance. A Total Return Index (TRI) includes reinvested distributions. Comparisons need a suitable benchmark and matching periods.",
+    "hi": "बेंचमार्क प्रदर्शन की तुलना का संदर्भ है। Total Return Index (TRI) में पुनर्निवेशित वितरण शामिल होते हैं। सही बेंचमार्क और समान अवधि की तुलना करें।",
+    "source": "https://www.canararobeco.com/smartomorrows/jargons-simplified/",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "folio",
+    "label": "Folio number",
+    "hiLabel": "फोलियो नंबर",
+    "keys": [
+      "folio",
+      "folio number",
+      "फोलियो"
+    ],
+    "en": "A folio number identifies an investor’s account record with a mutual fund. One investor can have multiple folios. Do not enter your folio number here.",
+    "hi": "फोलियो नंबर म्यूचुअल फंड में निवेशक के खाते की पहचान है। एक निवेशक के कई फोलियो हो सकते हैं। अपना फोलियो नंबर यहाँ दर्ज न करें।",
+    "source": "https://www.canararobeco.com/smartomorrows/jargons-simplified/",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "equity",
+    "label": "Equity and shares",
+    "hiLabel": "इक्विटी और शेयर",
+    "keys": [
+      "equity",
+      "share",
+      "shares",
+      "stocks",
+      "stock",
+      "इक्विटी",
+      "शेयर"
+    ],
+    "en": "Equity represents ownership in a company. Shareholders may receive dividends or capital gains, but prices can fall and invested capital can be lost.",
+    "hi": "इक्विटी कंपनी में स्वामित्व दर्शाती है। शेयरधारक को डिविडेंड या पूँजीगत लाभ हो सकता है, लेकिन कीमत घट सकती है और मूल निवेश में नुकसान हो सकता है।",
+    "source": "https://investor.sebi.gov.in/investment-assetclasses.html",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "bond",
+    "label": "Bond and debt security",
+    "hiLabel": "बॉन्ड और ऋण प्रतिभूति",
+    "keys": [
+      "bond",
+      "bonds",
+      "debt security",
+      "debenture",
+      "debentures",
+      "बॉन्ड",
+      "डिबेंचर"
+    ],
+    "en": "A bond is a debt security: an investor lends to its issuer on specified terms. Interest payments and principal repayment are subject to the issuer’s obligations and default risk.",
+    "hi": "बॉन्ड ऋण प्रतिभूति है जिसमें निवेशक जारीकर्ता को निर्धारित शर्तों पर पैसा उधार देता है। ब्याज और मूलधन भुगतान जारीकर्ता की देनदारी तथा डिफॉल्ट जोखिम के अधीन हैं।",
+    "source": "https://investor.sebi.gov.in/investment-assetclasses.html",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "debtfund",
+    "label": "Debt fund",
+    "hiLabel": "डेट फंड",
+    "keys": [
+      "debt fund",
+      "debt funds",
+      "डेट फंड",
+      "ऋण फंड"
+    ],
+    "en": "A debt fund invests mainly in debt and money-market instruments. It is not a bank deposit; credit and interest-rate risks can affect its value.",
+    "hi": "डेट फंड मुख्यतः ऋण और मनी-मार्केट साधनों में निवेश करता है। यह बैंक जमा नहीं है; क्रेडिट और ब्याज दर जोखिम से इसका मूल्य बदल सकता है।",
+    "source": "https://www.nism.ac.in/knowledge_base/understand-the-basics-of-securities-markets",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "hybridfund",
+    "label": "Hybrid fund",
+    "hiLabel": "हाइब्रिड फंड",
+    "keys": [
+      "hybrid",
+      "hybrid fund",
+      "balanced fund",
+      "हाइब्रिड",
+      "बैलेंस्ड फंड"
+    ],
+    "en": "A hybrid fund combines asset classes, commonly equity and debt. Its allocation and underlying holdings determine risk; the word balanced does not guarantee safety.",
+    "hi": "हाइब्रिड फंड इक्विटी और डेट जैसे एसेट वर्ग मिलाता है। जोखिम आवंटन और होल्डिंग पर निर्भर है; बैलेंस्ड नाम सुरक्षा की गारंटी नहीं देता।",
+    "source": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=TypesOfMutualFundSchemes",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "activefund",
+    "label": "Active fund",
+    "hiLabel": "एक्टिव फंड",
+    "keys": [
+      "active fund",
+      "active management",
+      "actively managed",
+      "एक्टिव फंड"
+    ],
+    "en": "An active fund’s manager selects investments using the scheme’s strategy, often seeking to outperform its benchmark. Outperformance is not assured.",
+    "hi": "एक्टिव फंड का प्रबंधक स्कीम की रणनीति से निवेश चुनता है और अक्सर बेंचमार्क से बेहतर प्रदर्शन का प्रयास करता है। बेहतर प्रदर्शन की गारंटी नहीं है।",
+    "source": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=TypesOfMutualFundSchemes",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "passivefund",
+    "label": "Passive fund",
+    "hiLabel": "पैसिव फंड",
+    "keys": [
+      "passive fund",
+      "passive management",
+      "passively managed",
+      "पैसिव फंड"
+    ],
+    "en": "A passive fund generally follows a specified index or rules-based portfolio. Tracking costs and market movements still affect returns. Passive does not mean risk-free.",
+    "hi": "पैसिव फंड सामान्यतः तय इंडेक्स या नियम-आधारित पोर्टफोलियो का अनुसरण करता है। लागत और बाज़ार बदलाव रिटर्न को प्रभावित करते हैं। पैसिव का अर्थ जोखिम-मुक्त नहीं है।",
+    "source": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=TypesOfMutualFundSchemes",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "liquidfund",
+    "label": "Liquid fund",
+    "hiLabel": "लिक्विड फंड",
+    "keys": [
+      "liquid fund",
+      "liquid funds",
+      "लिक्विड फंड"
+    ],
+    "en": "A liquid fund invests in short-maturity debt and money-market instruments. It remains market-linked; check credit risk, liquidity and current scheme terms.",
+    "hi": "लिक्विड फंड कम परिपक्वता वाले डेट और मनी-मार्केट साधनों में निवेश करता है। यह बाज़ार से जुड़ा है; क्रेडिट जोखिम, लिक्विडिटी और वर्तमान शर्तें जाँचें।",
+    "source": "https://www.franklintempletonindia.com/knowledge-centre/investment-glossary",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "giltfund",
+    "label": "Gilt fund",
+    "hiLabel": "गिल्ट फंड",
+    "keys": [
+      "gilt",
+      "gilt fund",
+      "government securities fund",
+      "गिल्ट"
+    ],
+    "en": "A gilt fund invests in government securities. Government backing does not prevent changes in the fund’s NAV when interest rates move.",
+    "hi": "गिल्ट फंड सरकारी प्रतिभूतियों में निवेश करता है। सरकारी प्रतिभूति होने से ब्याज दर बदलने पर फंड के NAV में उतार-चढ़ाव बंद नहीं होता।",
+    "source": "https://www.nism.ac.in/knowledge_base/mutual-funds-for-beginners",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "arbitragefund",
+    "label": "Arbitrage fund",
+    "hiLabel": "आर्बिट्राज फंड",
+    "keys": [
+      "arbitrage",
+      "arbitrage fund",
+      "आर्बिट्राज"
+    ],
+    "en": "An arbitrage fund seeks price differences between related market positions, such as cash and futures. Available opportunities, expenses and execution risks affect returns.",
+    "hi": "आर्बिट्राज फंड कैश और फ्यूचर्स जैसी संबंधित बाज़ार पोज़िशन के मूल्य अंतर से कमाई का प्रयास करता है। अवसर, खर्च और निष्पादन जोखिम रिटर्न को प्रभावित करते हैं।",
+    "source": "https://investor.sebi.gov.in/arbitrage_mutual_fund.html",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "openended",
+    "label": "Open-ended fund",
+    "hiLabel": "ओपन एंडेड फंड",
+    "keys": [
+      "open ended",
+      "openended",
+      "ओपन एंडेड"
+    ],
+    "en": "An open-ended fund generally allows ongoing subscriptions and redemptions under its scheme terms. Restrictions, exceptional suspensions or lock-ins may still apply.",
+    "hi": "ओपन एंडेड फंड में स्कीम की शर्तों के अनुसार सामान्यतः निरंतर खरीद और निकासी उपलब्ध होती है। प्रतिबंध, असाधारण रोक या लॉक-इन लागू हो सकते हैं।",
+    "source": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=TypesOfMutualFundSchemes",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "closedended",
+    "label": "Close-ended fund",
+    "hiLabel": "क्लोज एंडेड फंड",
+    "keys": [
+      "close ended",
+      "closed ended",
+      "closedended",
+      "क्लोज एंडेड"
+    ],
+    "en": "A close-ended fund has a specified maturity. Exchange-listed units may trade before maturity, but price and liquidity can differ from the scheme’s NAV.",
+    "hi": "क्लोज एंडेड फंड की निर्धारित परिपक्वता होती है। सूचीबद्ध यूनिट पहले एक्सचेंज पर बिक सकती हैं, लेकिन कीमत और लिक्विडिटी NAV से अलग हो सकती है।",
+    "source": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=TypesOfMutualFundSchemes",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "trackingerror",
+    "label": "Tracking error and tracking difference",
+    "hiLabel": "ट्रैकिंग एरर और अंतर",
+    "keys": [
+      "tracking error",
+      "tracking difference",
+      "tracking",
+      "ट्रैकिंग एरर"
+    ],
+    "en": "Tracking difference is the return gap between a fund and its index. Tracking error measures variability of that gap. Both help assess how closely an index strategy tracks.",
+    "hi": "ट्रैकिंग डिफरेंस फंड और इंडेक्स के रिटर्न का अंतर है। ट्रैकिंग एरर उस अंतर के उतार-चढ़ाव को मापता है। दोनों ट्रैकिंग समझने में उपयोगी हैं।",
+    "source": "https://www.nseindia.com/static/products-services/indices-tracking-error",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "assetallocation",
+    "label": "Asset allocation",
+    "hiLabel": "एसेट एलोकेशन",
+    "keys": [
+      "asset allocation",
+      "allocation",
+      "एसेट एलोकेशन",
+      "संपत्ति आवंटन"
+    ],
+    "en": "Asset allocation divides a portfolio among asset classes. It should reflect goals, time horizon and risk capacity. This assistant does not choose a personal allocation.",
+    "hi": "एसेट एलोकेशन में पोर्टफोलियो अलग एसेट वर्गों में बाँटा जाता है। इसे लक्ष्य, समय और जोखिम क्षमता से जोड़ें। यह असिस्टेंट व्यक्तिगत आवंटन नहीं चुनता।",
+    "source": "https://investor.sebi.gov.in/investment-thingsbeforeinv.html",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "liquidity",
+    "label": "Liquidity",
+    "hiLabel": "लिक्विडिटी",
+    "keys": [
+      "liquidity",
+      "liquid meaning",
+      "लिक्विडिटी",
+      "तरलता"
+    ],
+    "en": "Liquidity is how readily an asset can be converted into cash without a large price impact. Easy access and capital safety are different concepts.",
+    "hi": "लिक्विडिटी बताती है कि संपत्ति को बड़े मूल्य प्रभाव के बिना कितनी आसानी से नकदी में बदला जा सकता है। आसान निकासी और पूँजी की सुरक्षा अलग हैं।",
+    "source": "https://investor.sebi.gov.in/investment-thingsbeforeinv.html",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "inflation",
+    "label": "Inflation and purchasing power",
+    "hiLabel": "महँगाई और क्रय शक्ति",
+    "keys": [
+      "inflation",
+      "purchasing power",
+      "महंगाई",
+      "महँगाई",
+      "मुद्रास्फीति"
+    ],
+    "en": "Inflation is a rise in the general price level. It reduces purchasing power: the same amount of money buys fewer goods and services.",
+    "hi": "महँगाई सामान्य कीमतों में वृद्धि है। इससे क्रय शक्ति घटती है: उतने ही पैसों से कम वस्तुएँ और सेवाएँ मिलती हैं।",
+    "source": "https://investor.sebi.gov.in/moneymatters-inflation.html",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "capitalgain",
+    "label": "Capital gain and capital loss",
+    "hiLabel": "पूँजीगत लाभ और नुकसान",
+    "keys": [
+      "capital gain",
+      "capital loss",
+      "पूंजीगत लाभ",
+      "पूँजीगत लाभ"
+    ],
+    "en": "A capital gain is a profit on selling a capital asset above its cost; a capital loss is the opposite. Tax treatment depends on current law and circumstances.",
+    "hi": "पूँजीगत संपत्ति लागत से अधिक पर बेचने का लाभ capital gain है; कम पर बेचने का नुकसान capital loss है। कर प्रभाव वर्तमान कानून और परिस्थितियों पर निर्भर है।",
+    "source": "https://investor.sebi.gov.in/pdf/1315462034888.pdf",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "coupon",
+    "label": "Coupon rate",
+    "hiLabel": "कूपन दर",
+    "keys": [
+      "coupon",
+      "coupon rate",
+      "कूपन"
+    ],
+    "en": "A bond’s coupon rate determines its contractual interest relative to face value. Coupon rate differs from market yield and does not remove default risk.",
+    "hi": "बॉन्ड की कूपन दर अंकित मूल्य के आधार पर अनुबंधित ब्याज तय करती है। यह बाज़ार यील्ड से अलग है और डिफॉल्ट जोखिम समाप्त नहीं करती।",
+    "source": "https://www.nism.ac.in/investor-educations/understanding-bonds/",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "ytm",
+    "label": "YTM — Yield to Maturity",
+    "hiLabel": "YTM — यील्ड टू मैच्योरिटी",
+    "keys": [
+      "ytm",
+      "yield to maturity",
+      "yield",
+      "वाईटीएम",
+      "यील्ड"
+    ],
+    "en": "YTM is a bond’s implied annualised return from its price and scheduled cash flows under specified assumptions. A debt fund’s portfolio YTM is not its guaranteed future return.",
+    "hi": "YTM बॉन्ड की कीमत और निर्धारित कैश फ्लो से मान्यताओं के आधार पर निकला वार्षिकीकृत रिटर्न है। डेट फंड की पोर्टफोलियो YTM उसके भविष्य के रिटर्न की गारंटी नहीं है।",
+    "source": "https://www.nism.ac.in/knowledge_base/understand-the-basics-of-securities-markets",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "duration",
+    "label": "Duration and interest sensitivity",
+    "hiLabel": "ड्यूरेशन और ब्याज संवेदनशीलता",
+    "keys": [
+      "duration",
+      "modified duration",
+      "ड्यूरेशन"
+    ],
+    "en": "Duration is a measure related to a bond’s cash flows and interest-rate sensitivity. Higher modified duration generally means greater price sensitivity to yield changes.",
+    "hi": "ड्यूरेशन बॉन्ड के कैश फ्लो और ब्याज दर संवेदनशीलता से संबंधित माप है। अधिक modified duration सामान्यतः यील्ड बदलने पर अधिक मूल्य संवेदनशीलता दर्शाता है।",
+    "source": "https://mutualfund.adityabirlacapital.com/investor-education/nism-series-5-d-faqs",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "creditrisk",
+    "label": "Credit risk",
+    "hiLabel": "क्रेडिट रिस्क",
+    "keys": [
+      "credit risk",
+      "default risk",
+      "क्रेडिट रिस्क",
+      "डिफॉल्ट"
+    ],
+    "en": "Credit risk is the possibility that an issuer delays or fails to make required payments. A credit rating is an assessment, not a payment guarantee.",
+    "hi": "क्रेडिट रिस्क में जारीकर्ता भुगतान देर से कर सकता है या चूक सकता है। क्रेडिट रेटिंग आकलन है, भुगतान की गारंटी नहीं।",
+    "source": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=riskInMutualFunds",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "interestrisk",
+    "label": "Interest-rate risk",
+    "hiLabel": "ब्याज दर जोखिम",
+    "keys": [
+      "interest rate risk",
+      "interest rates",
+      "ब्याज दर जोखिम"
+    ],
+    "en": "Interest-rate changes can alter bond prices. Existing fixed-rate bond prices generally fall when market yields rise, and rise when yields fall.",
+    "hi": "ब्याज दर बदलने से बॉन्ड की कीमत बदल सकती है। बाज़ार यील्ड बढ़ने पर मौजूदा फिक्स्ड-रेट बॉन्ड की कीमत सामान्यतः घटती है और यील्ड घटने पर बढ़ती है।",
+    "source": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=riskInMutualFunds",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "volatility",
+    "label": "Volatility",
+    "hiLabel": "वोलैटिलिटी",
+    "keys": [
+      "volatility",
+      "volatile",
+      "वोलैटिलिटी",
+      "उतार चढ़ाव"
+    ],
+    "en": "Volatility describes fluctuations in an asset’s returns or price. Higher volatility means larger swings, not an assurance of higher returns.",
+    "hi": "वोलैटिलिटी कीमत या रिटर्न के उतार-चढ़ाव को दर्शाती है। अधिक वोलैटिलिटी का मतलब बड़े बदलाव हैं, अधिक रिटर्न की गारंटी नहीं।",
+    "source": "https://www.nism.ac.in/investor-educations/understanding-investment-risks-and-returns/",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "drawdown",
+    "label": "Drawdown",
+    "hiLabel": "ड्रॉडाउन",
+    "keys": [
+      "drawdown",
+      "draw down",
+      "max drawdown",
+      "ड्रॉडाउन"
+    ],
+    "en": "Drawdown is a decline from an investment’s previous peak to a later trough. Maximum drawdown measures the largest such fall in the period examined.",
+    "hi": "ड्रॉडाउन निवेश के पिछले शिखर से बाद के निचले स्तर की गिरावट है। Maximum drawdown जाँची गई अवधि की सबसे बड़ी ऐसी गिरावट मापता है।",
+    "source": "https://www.franklintempletonindia.com/knowledge-centre/investment-glossary",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "alpha",
+    "label": "Alpha",
+    "hiLabel": "अल्फा",
+    "keys": [
+      "alpha",
+      "अल्फा"
+    ],
+    "en": "Alpha measures performance beyond that explained by a chosen benchmark or risk model. Its meaning depends on the method and period; past alpha is not guaranteed.",
+    "hi": "अल्फा चुने बेंचमार्क या रिस्क मॉडल से समझाए प्रदर्शन से अतिरिक्त प्रदर्शन का माप है। विधि और अवधि महत्त्वपूर्ण हैं; पिछला अल्फा गारंटी नहीं है।",
+    "source": "https://www.hdfcfund.com/learn/blog/alpha-beta-mutual-funds-meaning-importance-calculation",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "beta",
+    "label": "Beta",
+    "hiLabel": "बीटा",
+    "keys": [
+      "beta",
+      "बीटा"
+    ],
+    "en": "Beta measures how an investment’s returns move relative to a chosen market benchmark. It describes relative market sensitivity, not every type of investment risk.",
+    "hi": "बीटा चुने बाज़ार बेंचमार्क के मुकाबले रिटर्न की संवेदनशीलता मापता है। यह सभी प्रकार के निवेश जोखिम का पूर्ण माप नहीं है।",
+    "source": "https://www.nseindia.com/static/products-services/indices-beta",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "sharpe",
+    "label": "Sharpe ratio",
+    "hiLabel": "शार्प रेशियो",
+    "keys": [
+      "sharpe",
+      "sharpe ratio",
+      "शार्प"
+    ],
+    "en": "The Sharpe ratio compares return above a risk-free reference with return volatility. Compare consistent periods and methods; it is not a stand-alone fund recommendation.",
+    "hi": "शार्प रेशियो रिस्क-फ्री संदर्भ से अतिरिक्त रिटर्न की तुलना रिटर्न की वोलैटिलिटी से करता है। समान विधि और अवधि लें; अकेला अनुपात फंड की सलाह नहीं है।",
+    "source": "https://www.hdfcfund.com/learn/blog/alpha-beta-mutual-funds-meaning-importance-calculation",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "stddev",
+    "label": "Standard deviation",
+    "hiLabel": "स्टैंडर्ड डिविएशन",
+    "keys": [
+      "standard deviation",
+      "std deviation",
+      "std dev",
+      "स्टैंडर्ड डिविएशन"
+    ],
+    "en": "Standard deviation measures how widely returns vary around their average. A higher value indicates greater historical volatility, not a forecast of the next loss.",
+    "hi": "स्टैंडर्ड डिविएशन रिटर्न के औसत से फैलाव को मापता है। बड़ा मान पिछली वोलैटिलिटी दर्शाता है, अगले नुकसान का अनुमान नहीं।",
+    "source": "https://www.hdfcfund.com/learn/blog/alpha-beta-mutual-funds-meaning-importance-calculation",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "portfolio",
+    "label": "Portfolio",
+    "hiLabel": "पोर्टफोलियो",
+    "keys": [
+      "portfolio",
+      "पोर्टफोलियो"
+    ],
+    "en": "A portfolio is a collection of investments held by an investor or fund. Its combined exposures matter, not just the number of investments.",
+    "hi": "पोर्टफोलियो किसी निवेशक या फंड के निवेशों का समूह है। केवल निवेशों की संख्या नहीं, उनका संयुक्त एक्सपोज़र भी महत्त्वपूर्ण है।",
+    "source": "https://mf.nipponindiaim.com/learn-and-invest/glossary",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "lumpsum",
+    "label": "Lump-sum investment",
+    "hiLabel": "एकमुश्त निवेश",
+    "keys": [
+      "lumpsum",
+      "lump sum",
+      "one time investment",
+      "एकमुश्त"
+    ],
+    "en": "A lump-sum investment puts a chosen amount into an investment at one time, unlike periodic instalments. The investment’s risks still apply.",
+    "hi": "एकमुश्त निवेश में नियमित किस्तों के बजाय एक समय पर राशि निवेश की जाती है। चुने निवेश के जोखिम इसमें भी लागू रहते हैं।",
+    "source": "https://www.franklintempletonindia.com/knowledge-centre/investment-glossary",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "ipo",
+    "label": "IPO — Initial Public Offering",
+    "hiLabel": "IPO — शुरुआती सार्वजनिक पेशकश",
+    "keys": [
+      "ipo",
+      "initial public offering",
+      "आईपीओ"
+    ],
+    "en": "An IPO is a company’s first public offering of its shares. It differs from a mutual fund NFO, and listing gains are not guaranteed.",
+    "hi": "IPO कंपनी के शेयरों की पहली सार्वजनिक पेशकश है। यह म्यूचुअल फंड NFO से अलग है और लिस्टिंग लाभ की गारंटी नहीं होती।",
+    "source": "https://investor.sebi.gov.in/pdf/1315462034888.pdf",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "demat",
+    "label": "Demat account",
+    "hiLabel": "डीमैट खाता",
+    "keys": [
+      "demat",
+      "demat account",
+      "depository",
+      "डीमैट",
+      "डिमैट"
+    ],
+    "en": "A demat account holds securities electronically through a depository participant. It holds the securities; a trading account is used to place exchange trades.",
+    "hi": "डीमैट खाता डिपॉजिटरी पार्टिसिपेंट के माध्यम से प्रतिभूतियाँ इलेक्ट्रॉनिक रूप में रखता है। ट्रेडिंग खाता एक्सचेंज पर सौदे लगाने के लिए होता है।",
+    "source": "https://investor.sebi.gov.in/pdf/1315462034888.pdf",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "marketcap",
+    "label": "Market capitalisation",
+    "hiLabel": "मार्केट कैपिटलाइज़ेशन",
+    "keys": [
+      "market cap",
+      "market capitalization",
+      "market capitalisation",
+      "मार्केट कैप"
+    ],
+    "en": "Market capitalisation is a listed company’s share price multiplied by its outstanding shares. It measures equity market value, not cash in the company.",
+    "hi": "मार्केट कैप कंपनी के शेयर मूल्य और बकाया शेयरों का गुणनफल है। यह इक्विटी का बाज़ार मूल्य है, कंपनी में रखी नकदी नहीं।",
+    "source": "https://www.sec.gov/resources-small-businesses/glossary",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "pe",
+    "label": "P/E — Price-to-Earnings ratio",
+    "hiLabel": "P/E — प्राइस टू अर्निंग्स",
+    "keys": [
+      "pe",
+      "p e",
+      "p/e",
+      "price earnings",
+      "price to earnings",
+      "पीई",
+      "पी ई"
+    ],
+    "en": "P/E divides share price by earnings per share. Compare consistent earnings measures; a low P/E alone does not establish that a share is undervalued.",
+    "hi": "P/E शेयर मूल्य को प्रति शेयर आय से भाग देने पर मिलता है। समान आय माप की तुलना करें; कम P/E अकेले कम मूल्यांकन का प्रमाण नहीं है।",
+    "source": "https://www.nism.ac.in/knowledge_base/understand-the-basics-of-securities-markets",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "eps",
+    "label": "EPS — Earnings Per Share",
+    "hiLabel": "EPS — प्रति शेयर आय",
+    "keys": [
+      "eps",
+      "earnings per share",
+      "ईपीएस"
+    ],
+    "en": "EPS expresses earnings attributable to ordinary shareholders per share. Basic and diluted EPS can differ; EPS is not the cash dividend paid to shareholders.",
+    "hi": "EPS साधारण शेयरधारकों की प्रति शेयर आय दर्शाता है। Basic और diluted EPS अलग हो सकते हैं। EPS शेयरधारक को दिया नकद डिविडेंड नहीं है।",
+    "source": "https://www.idx.id/en/investor/stock-screener-column-explanation-en/",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "principal",
+    "label": "Principal amount",
+    "hiLabel": "मूलधन",
+    "keys": [
+      "principal",
+      "principal amount",
+      "मूलधन"
+    ],
+    "en": "Principal is the original amount invested or borrowed, before interest. It differs from the total value after interest, gains or losses.",
+    "hi": "मूलधन ब्याज से पहले निवेश या उधार की मूल राशि है। यह ब्याज, लाभ या नुकसान के बाद के कुल मूल्य से अलग है।",
+    "source": "https://investor.sebi.gov.in/moneymatters-powerofcom.html",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "maturity",
+    "label": "Maturity date",
+    "hiLabel": "परिपक्वता तिथि",
+    "keys": [
+      "maturity",
+      "maturity date",
+      "परिपक्वता",
+      "मैच्योरिटी"
+    ],
+    "en": "Maturity is the scheduled end of an instrument’s term when repayment becomes due under its conditions. Actual payment depends on the issuer meeting its obligations.",
+    "hi": "मैच्योरिटी साधन की निर्धारित अवधि का अंत है जब शर्तों के अनुसार भुगतान देय होता है। वास्तविक भुगतान जारीकर्ता की देनदारी पूरी करने पर निर्भर है।",
+    "source": "https://www.nism.ac.in/investor-educations/understanding-bonds/",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "simpleinterest",
+    "label": "Simple interest",
+    "hiLabel": "साधारण ब्याज",
+    "keys": [
+      "simple interest",
+      "साधारण ब्याज"
+    ],
+    "en": "Simple interest is calculated on principal alone: principal × annual rate × years. Unlike compound interest, previously earned interest does not itself earn interest.",
+    "hi": "साधारण ब्याज केवल मूलधन पर मिलता है: मूलधन × वार्षिक दर × वर्ष। चक्रवृद्धि ब्याज के विपरीत, पिछले ब्याज पर आगे ब्याज नहीं जुड़ता।",
+    "source": "https://investor.sebi.gov.in/moneymatters-powerofcom.html",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "networth",
+    "label": "Net worth",
+    "hiLabel": "नेट वर्थ",
+    "keys": [
+      "net worth",
+      "networth",
+      "नेटवर्थ",
+      "नेट वर्थ"
+    ],
+    "en": "Net worth is the value of assets minus liabilities at a point in time. It differs from income, which is measured over a period.",
+    "hi": "नेट वर्थ किसी समय संपत्ति के मूल्य में से देनदारियाँ घटाने पर मिलता है। यह आय से अलग है, जो एक अवधि में मापी जाती है।",
+    "source": "https://investor.sebi.gov.in/calculators/Networth_Calculator.html",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "roi",
+    "label": "ROI — Return on Investment",
+    "hiLabel": "ROI — निवेश पर रिटर्न",
+    "keys": [
+      "roi",
+      "return on investment",
+      "आरओआई"
+    ],
+    "en": "Simple ROI is gain or loss divided by the original investment, expressed as a percentage. It does not automatically adjust for time or multiple cash flows.",
+    "hi": "साधारण ROI लाभ या नुकसान को मूल निवेश से भाग देकर प्रतिशत में दिखाता है। यह अपने आप समय या कई कैश फ्लो का समायोजन नहीं करता।",
+    "source": "https://www.franklintempletonindia.com/knowledge-centre/investment-glossary",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "fd",
+    "label": "FD — Fixed Deposit",
+    "hiLabel": "FD — फिक्स्ड डिपॉजिट",
+    "keys": [
+      "fd",
+      "fixed deposit",
+      "term deposit",
+      "एफडी"
+    ],
+    "en": "An FD is a deposit for a specified term at the provider’s agreed rate and conditions. It differs from a market-linked mutual fund. Check withdrawal and deposit-protection terms.",
+    "hi": "FD तय अवधि का जमा है, जिस पर प्रदाता की सहमत दर और शर्तें लागू होती हैं। यह बाज़ार-आधारित म्यूचुअल फंड से अलग है। निकासी और जमा सुरक्षा की शर्तें जाँचें।",
+    "source": "https://rbi.org.in/scripts/DataDefinition.aspx",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "rd",
+    "label": "RD — Recurring Deposit",
+    "hiLabel": "RD — रिकरिंग डिपॉजिट",
+    "keys": [
+      "rd",
+      "recurring deposit",
+      "आरडी"
+    ],
+    "en": "An RD builds a deposit through regular instalments for a set term. Interest and missed-instalment conditions follow the provider’s terms; it is not a mutual fund SIP.",
+    "hi": "RD में तय अवधि तक नियमित किस्तों से जमा बनता है। ब्याज और किस्त छूटने की शर्तें प्रदाता के अनुसार होती हैं। यह म्यूचुअल फंड SIP नहीं है।",
+    "source": "https://sbi.co.in/web/personal-banking/investments-deposits/deposits/recurring-deposit",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "rta",
+    "label": "RTA — Registrar and Transfer Agent",
+    "hiLabel": "RTA — रजिस्ट्रार और ट्रांसफर एजेंट",
+    "keys": [
+      "rta",
+      "registrar",
+      "transfer agent",
+      "आरटीए"
+    ],
+    "en": "An RTA maintains investor records and supports specified transaction and servicing processes for a fund. It is not the fund’s investment manager.",
+    "hi": "RTA निवेशक रिकॉर्ड और फंड की निर्धारित लेनदेन तथा सेवा प्रक्रियाओं में सहायता करता है। यह फंड का निवेश प्रबंधक नहीं है।",
+    "source": "https://www.sebi.gov.in/curation/mutual_funds_and_rtas.html",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
+  },
+  {
+    "id": "elss",
+    "label": "ELSS — Equity Linked Savings Scheme",
+    "hiLabel": "ELSS — इक्विटी लिंक्ड सेविंग्स स्कीम",
+    "keys": [
+      "elss",
+      "equity linked savings scheme",
+      "ईएलएसएस"
+    ],
+    "en": "ELSS is an equity-linked mutual fund category with a statutory lock-in. Tax benefit eligibility depends on the applicable tax regime and current law. Returns are market-linked.",
+    "hi": "ELSS इक्विटी-लिंक्ड म्यूचुअल फंड श्रेणी है जिसमें वैधानिक लॉक-इन होता है। कर लाभ की पात्रता लागू कर व्यवस्था और वर्तमान कानून पर निर्भर है। रिटर्न बाज़ार से जुड़े हैं।",
+    "source": "https://www.nism.ac.in/knowledge_base/mutual-funds-for-beginners",
+    "sourceLabel": "Official reference ↗",
+    "modes": [
+      "client",
+      "team"
+    ],
+    "category": "Finance glossary",
+    "kind": "official",
+    "reviewed": "2026-11-06"
   }
 ];
 
 export function normalize(text) {
- return String(text??'').normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{M}\p{N}]+/gu,' ').trim().replace(/\s+/g,' ');
+ return String(text??'').normalize('NFKC').toLowerCase().replace(/\b(?:[a-z]\.){2,}[a-z]?\.?/g,match=>match.replace(/\./g,'' )).replace(/[^\p{L}\p{M}\p{N}]+/gu,' ').trim().replace(/\s+/g,' ');
 }
 const STOP = new Set('what how when why which is are the a an i my me you can do does to for of in and please explain about kya hai hain ka ki ke mujhe batao'.split(' '));
 function near(a,b) {
