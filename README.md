@@ -74,3 +74,14 @@ Gemini implementation and pricing references:
 The earlier 35-entry release omitted Fund of Funds and could not answer the basic question `WHAT IS FOF`. The catalogue now includes 51 additional finance definitions (86 total) including FOF, ETF, NFO, AUM, AMC, YTM, alpha, beta, debt/hybrid funds, bonds, liquidity and inflation. Definitions have bilingual text and official references.
 
 Regression tests cover the exact reported question, F.O.F. punctuation, Hindi/Hinglish variants, 50 other basic definition questions, false acronym matches, and reachability of every new glossary title. All 68 tests pass. This remains a finite, locally searched glossary in Prepared mode; it is not open-ended AI or a claim to cover every finance term. The UI and unknown-answer message state that limit.
+
+
+## Guided conversations and portfolio discussion
+
+Prepared mode now handles common greetings, wellbeing questions, thanks, goodbyes and help in English/Hindi/Hinglish. The exact “HOW ARE YOU?” failure has a regression test.
+
+A visible Start portfolio review button opens a five-step educational conversation: goal, horizon, self-described comfort with falls, broad holding categories and review concern. The assistant retains these categorical choices in page memory and produces a discussion brief. It does not score suitability, inspect actual holdings, recommend securities or provide personal buy/sell/allocation instructions. Context resets on New chat, workspace/language change or page reload. No profile is saved or sent to an AI provider in Prepared mode.
+
+Definitions can interrupt a review without advancing its step. Short invalid answers prompt clarification rather than inventing a preference. A Stop review command clears the review state. Guided conversation is separate from Gemini’s optional generation; it works without a key or model-token usage.
+
+88 automated tests pass across social replies, complete English/Hindi portfolio flows, context retention, cancellation and the existing glossary/backend checks. These are bounded conversational intents, not unrestricted natural-language understanding.
